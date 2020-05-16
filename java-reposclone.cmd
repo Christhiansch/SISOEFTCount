@@ -18,4 +18,3 @@ ECHO ==== OLX - JUEGO DAMAS ====
 CALL git clone https://github.com/Christhiansch/juegodamas.git
 ECHO:
 
-PAUSE
