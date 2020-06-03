@@ -4,12 +4,16 @@ TITLE CLONAR REPOSITORIOS JAVA
 
 :: PROYECTOS PERSONALES O DEL TRABAJO
 
-ECHO ==== SISO-SELENIUM ====
-CALL git clone https://github.com/Christhiansch/selenium.git
+ECHO ==== SELENIUM-SISOSEC ====
+CALL git clone https://github.com/Christhiansch/SECWEBTESTAutomation.git
 ECHO:
 
-ECHO ==== AUTOMATIZATION PROJECT ====
-CALL git clone https://github.com/Josdy/AutomatizationProject.git
+ECHO ==== SELENIUM-SISOEFT ====
+CALL git clone https://github.com/Christhiansch/EFTWEBTESTAutomation.git
+ECHO:
+
+ECHO ==== SELENIUM-SISOSCA ====
+CALL git clone https://github.com/Christhiansch/SCAWEBTESTAutomation.git
 ECHO:
 
 :: PROYECTOS EXTERNOS
