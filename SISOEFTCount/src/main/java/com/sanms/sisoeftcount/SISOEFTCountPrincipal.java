@@ -69,25 +69,27 @@ public class SISOEFTCountPrincipal
     //CASO C
     if(DIF_SRQ_SRD==0 & DIF_SRD_SRR>0 & DIF_SRS_SRR==0)
     {      
-      caso = "C";
+      caso = "C";      
       NOCOMPLETADOS = total_operaciones_nocompletadas(DIF_SRQ_SRD, DIF_SRS_SRR, DIF_SRD_SRR);
+      COMPLETADOS = SRQ - NOCOMPLETADOS;
       imprimirResultadoContabilizacion(caso, COMPLETADOS, NOCOMPLETADOS);
     }
     
     //CASO D
     if(DIF_SRQ_SRD==0 & DIF_SRD_SRR>0 & DIF_SRR_SRS<0)
     {      
-      caso = "D";
-      COMPLETADOS=SRS;
+      caso = "D";      
       NOCOMPLETADOS = total_operaciones_nocompletadas(DIF_SRQ_SRD, DIF_SRR_SRS, DIF_SRD_SRR);
+      COMPLETADOS= SRQ - NOCOMPLETADOS;
       imprimirResultadoContabilizacion(caso, COMPLETADOS, NOCOMPLETADOS);
     }
     
     //CASO E
     if(DIF_SRQ_SRD>0 & DIF_SRD_SRR==0 & DIF_SRS_SRR==0)
     {
-      caso = "E";
+      caso = "E";      
       NOCOMPLETADOS = total_operaciones_nocompletadas(DIF_SRQ_SRD, DIF_SRS_SRR, DIF_SRD_SRR);
+      COMPLETADOS = SRQ - NOCOMPLETADOS;
       imprimirResultadoContabilizacion(caso, COMPLETADOS, NOCOMPLETADOS);
     }
     
