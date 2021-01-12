@@ -11,7 +11,7 @@ public class EFTATMDriverService extends Operacion implements IOperacion
 		// TODO Auto-generated constructor stub
 	}
 
-	public void calcularDiferenciaEtiquetas(int inptSRQ, int inptSRD, int inptSRR, int inptSRS)
+	public void calcularDiferenciaEtiquetas()
 	{
 		this.setDIF_SRQ_SRD(getSRQ() - getSRD());
 		this.setDIF_SRD_SRR(getSRD() - getSRR());
@@ -62,7 +62,7 @@ public class EFTATMDriverService extends Operacion implements IOperacion
 		return 0;
 	}
 
-	public int calcularTotalOperacionesCompletadas(int inptDIF_SRQ_SRD, int inptDIF_SRS_SRR, int inptDIF_SRD_SRR)
+	public int calcularTotalOperacionesCompletadas()
 	{
 		// TODO Auto-generated method stub
 		return 0;

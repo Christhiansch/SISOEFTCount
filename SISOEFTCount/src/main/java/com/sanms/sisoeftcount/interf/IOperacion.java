@@ -10,7 +10,8 @@ public interface IOperacion
 	int evaluarCondicionOpeacionNoCompletadaNro4();
 	int evaluarCondicionOpeacionNoCompletadaNro5();
 	int evaluarCondicionOpeacionNoCompletadaNro6();
-	void calcularDiferenciaEtiquetas(int inptSRQ, int inptSRD, int inptSRR, int inptSRS);
-	int calcularTotalOperacionesCompletadas(int inptDIF_SRQ_SRD, int inptDIF_SRS_SRR, int inptDIF_SRD_SRR);
+	
+	void calcularDiferenciaEtiquetas();
+	int calcularTotalOperacionesCompletadas();
 	
 }

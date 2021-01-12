@@ -44,7 +44,7 @@ public class EFTSwitchService extends Operacion implements IOperacion
 		NORESPONDE_AUTORIZADOR = nORESPONDE_AUTORIZADOR;
 	}
 
-	public void calcularDiferenciaEtiquetas(int inptSRQ, int inptSRD, int inptSRR, int inptSRS)
+	public void calcularDiferenciaEtiquetas()
 	{
 
 		this.setDIF_SRQ_SRD(getSRQ() - getSRD());
@@ -100,7 +100,7 @@ public class EFTSwitchService extends Operacion implements IOperacion
 		return 0;
 	}
 
-	public int calcularTotalOperacionesCompletadas(int inptDIF_SRQ_SRD, int inptDIF_SRS_SRR, int inptDIF_SRD_SRR)
+	public int calcularTotalOperacionesCompletadas()
 	{
 
 		return 0;
